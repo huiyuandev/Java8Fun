@@ -12,7 +12,7 @@ public class C02MapTest {
                         new Fruit("草莓", "Peanut", "坚果", "棕色"),
                         new Fruit("蓝莓", "Blueberry", "浆果", "蓝色")
                 )
-                .map(f->f.cname()+"酱")
+                .map(f -> f.cname() + "酱")
                 .forEach(System.out::println);
     }
 

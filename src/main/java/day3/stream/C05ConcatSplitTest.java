@@ -30,6 +30,6 @@ public class C05ConcatSplitTest {
             dropWhile(Predicate p)      条件成立舍弃, 一旦条件不成立，剩下的保留
          */
 //        concat.takeWhile(x->x<3).forEach(System.out::print);
-        concat.dropWhile(x->x<3).forEach(System.out::print);
+        concat.dropWhile(x -> x < 3).forEach(System.out::print);
     }
 }
