@@ -213,7 +213,7 @@ public class AnalysisTest {
                     .map(line -> line.split(","))
                     .collect(groupingBy(array -> array[USER_ID], counting()));
 //            for (Map.Entry<String, Long> e : collect.entrySet()) {
-//                System.out.println(e);M
+//                System.out.println(e);
 //            }
             collect.entrySet().stream()
                     .sorted(Map.Entry.<String, Long>comparingByValue().reversed())
